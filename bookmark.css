@@ -1,0 +1,222 @@
+div {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#col-2 {
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center left;
+    background-size: cover;
+}
+#col-2 img {
+    height: 350px;
+    max-width: inherit;
+
+}
+
+@media screen and (min-width:576px) {
+    
+    #col-2 {
+        
+        justify-content: center;
+        padding-right: 0px;
+        max-width: 100%;
+    }
+    #col-2 img {
+        height: 600px;
+        max-width: 500px;
+    }
+    #row1 {
+        margin: 0px;
+        flex-direction: row-reverse;
+    }
+    #hero-text-container h1 {
+        font-family: "Public Sans", sans-serif;
+      text-transform: capitalize;
+      font-size: 3.0rem;
+      color: #252b46;
+    }
+    
+    #hero-text-container p {
+        width: 400px;
+      margin-top: 0;
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      color: #9194a1;
+    }
+    #hero-text-container {
+        width: 500px;
+    }
+    #column-section p {
+        width: 400px;
+        margin-top: 0;
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        color: #9194a1;
+    }
+}
+
+#hero-text-container {
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+  width: inherit;
+}
+
+#hero-text-container h1 {
+    font-family: "Public Sans", sans-serif;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  color: #252b46;
+}
+
+#hero-text-container p {
+    width: inherit;
+  margin-top: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: #9194a1;
+    
+}
+
+
+.hero-section {
+    background-size: 600px,700px;
+    background-color: hsl(220, 16%, 96%) ;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-position: top right, top right;
+}
+
+#row1, #row3{
+    background-color: hsl(220, 16%, 96%);
+}
+
+#row2 {
+    background-color: hsl(0, 9%, 90%);
+}
+
+#image1 {
+    height: 600px;
+}
+#colum-section {
+    justify-content: center;
+}
+
+#column-section h2 {
+    font-family: "Public Sans", sans-serif;
+    text-transform: capitalize;
+    color:  hsl(233, 26%, 24%);
+}
+
+#column-section p {
+    width: inherit;
+    margin-top: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    color: #9194a1;
+}
+
+#inner-column {
+
+}
+
+#inner-column p{
+    width: fit-content;
+}
+
+#inner-column h4 {
+    font-family: "Public Sans", sans-serif;
+    text-transform: capitalize;
+    color:  hsl(233, 26%, 24%);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: fit-content;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-title {
+    font-family: "Public Sans", sans-serif;
+    text-transform: capitalize;
+    color:  hsl(233, 37%, 31%);
+}
+.card-link {
+    text-decoration: none;
+}
+
+.card-text {
+    margin-top: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    color: hsl(233, 37%, 31%);
+}
+
+#row3 h2 {
+    font-family: "Public Sans", sans-serif;
+    text-transform: capitalize;
+    color:  hsl(233, 26%, 24%);
+}
+
+.nav-item {
+    font-family: "Public Sans", sans-serif;
+    color: #9194a1;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+footer {
+    background-color:  hsl(233, 26%, 24%);
+}
+
+#button1 {
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(36, 221, 67), hsl(192, 70%, 51%));
+    border-style: hidden;
+}
+
+#footer-logo {
+    color: white;
+}
+
+.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.demo li {
+    color: hsl(0, 0%, 98%);
+    font-family: "Public Sans", sans-serif;
+}
+
+.demo li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+}
+
+.demo li a:hover {
+    color: rgb(2, 194, 2);
+}
+
+#social-link a img:hover {
+    color: rgb(2, 194, 2);
+}
